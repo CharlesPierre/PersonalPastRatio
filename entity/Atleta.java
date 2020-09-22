@@ -9,7 +9,7 @@ nome = n;
 }
 
 public void setIdade(int i){
-idade = i;
+idade = n;
 }
 
 public String getNome() {
@@ -17,7 +17,7 @@ return nome;
 }
 
 public int getIdade(){
-return idade; 
+return idade; //simulando retorno com erro
 
 }
 

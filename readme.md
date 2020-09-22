@@ -8,3 +8,4 @@ Trata-se de um sistema de gerenciamento de imc (indice de massa corporal) para c
 - testes unitarios, simples
 - teste unitario, com codigo e manipulação de Exception
 - organizaçao de pastas (inicial) e testes
+- manipulação de Coleções de dados (ArrayList, Map, Set, Resultset, XML, Json, cvs, )

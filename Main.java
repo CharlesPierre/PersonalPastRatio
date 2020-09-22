@@ -6,6 +6,11 @@ class Main {
 TesteUnitario tu = new TesteUnitario();
 tu.executarAll();
 
+TelaConsoleMenu tela = new TelaConsoleMenu();
+tela.executar();
+
+
+
 
     System.out.println("imcmonitor, fim!");
   }
