@@ -12,6 +12,6 @@ tela.executar();
 
 
 
-    System.out.println("imcmonitor, fim!");
+    System.out.println("\nimcmonitor, fim!");
   }
 }

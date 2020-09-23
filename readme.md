@@ -9,3 +9,10 @@ Trata-se de um sistema de gerenciamento de imc (indice de massa corporal) para c
 - teste unitario, com codigo e manipulação de Exception
 - organizaçao de pastas (inicial) e testes
 - manipulação de Coleções de dados (ArrayList, Map, Set, Resultset, XML, Json, cvs, )
+
+- [x] entidade simples (Atleta)
+- [x] encapsulamento simples com get/set (privando acesso aos atributos)
+- [x] teste unitario, simples
+- [x] teste unitario, com codigo e manipulacao de Exception
+- [x] organização de pastas (inicial) e testes
+- [ ] manipulação de Coleções de dados (ArrayList, Map, Set, Resultset, XML, Json, cvs, )
