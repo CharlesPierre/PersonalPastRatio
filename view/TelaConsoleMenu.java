@@ -11,15 +11,22 @@ class TelaConsoleMenu {
       boolean sair = false;
       int op;
 
+      //matriculas = loadAll(); para amanha ou quarta
+
       while(!sair){
 
         System.out.println("\nMENU ******");
         System.out.println(" 1 [+] ATLETA");
         System.out.println(" 2 [+] AVALIACAO");
         System.out.println("11 [>] LISTAGEM");
+        System.out.println(" 1 [+] ATLETA");            //ok
+        System.out.println(" 2 [+] AVALIACAO");         
+        System.out.println("11 [>] LISTAGEM");          //ok
         System.out.println("12 [>] CONSULTA ATLETA");
         System.out.println(" 9 [X] ATLETA");
         System.out.println(" 0 [X] SAIR");
+        System.out.println(" 9 [X] ATLETA");            //ok
+        System.out.println(" 0 [X] SAIR");              //ok
         System.out.println("---------------");
         System.out.print("Opcao:_");
         op = teclado.nextInt();
@@ -29,11 +36,11 @@ class TelaConsoleMenu {
         }
 
         if(op == 11) {
-          this.removerAtleta();
+          this.listarAtletas();
         }
 
         if(op == 9) {
-          this.listarAtletas();
+          this.removerAtleta();
         }
 
         if(op == 0) {
@@ -82,7 +89,8 @@ class TelaConsoleMenu {
 
       System.out.println("\nRemover Atleta:");
 
-      this.listarAtletas();       
+      this.listarAtletas();
+       //this.listarAtletas();       
 
       System.out.print("selecione_: ");
       int posicao = teclado.nextInt();
